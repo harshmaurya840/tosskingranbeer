@@ -1,115 +1,117 @@
 .title-king {
-font-size: 28px;
-font-weight: 900;
-color: #ffffff;
-letter-spacing: 2px;
-text-shadow: 0 0 12px rgba(255, 215, 0, 0.8), 0 0 20px rgba(255, 255, 255, 0.6);
-margin-bottom: 25px;
-}
+            font-size: 28px;
+            font-weight: 900;
+            color: #ffffff;
+            letter-spacing: 2px;
+            text-shadow: 0 0 12px rgba(255, 215, 0, 0.8), 0 0 20px rgba(255, 255, 255, 0.6);
+            margin-bottom: 25px;
+        }
 
-.features {
-background: rgba(0, 0, 0, 0.55);
-border: 1px solid rgba(255, 215, 0, 0.2);
-border-radius: 14px;
-padding: 18px 16px;
-margin-bottom: 25px;
-text-align: left;
-}
+        .features {
+            background: rgba(0, 0, 0, 0.55);
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            border-radius: 14px;
+            padding: 18px 16px;
+            margin-bottom: 25px;
+            text-align: left;
+        }
 
-.feature-item {
-display: flex;
-align-items: center;
-margin-bottom: 12px;
-font-size: 15px;
-font-weight: 500;
-}
+        .feature-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 12px;
+            font-size: 15px;
+            font-weight: 500;
+        }
 
-.feature-item:last-child {
-margin-bottom: 0;
-}
+        .feature-item:last-child {
+            margin-bottom: 0;
+        }
 
-.feature-item i {
-color: #00ff88;
-margin-right: 12px;
-font-size: 18px;
-}
+        .feature-item i {
+            color: #00ff88;
+            margin-right: 12px;
+            font-size: 18px;
+        }
 
-.btn-telegram {
-display: flex;
-align-items: center;
-justify-content: center;
-gap: 12px;
-background: linear-gradient(135deg, #0088cc, #005f9e);
-color: #ffffff;
-text-decoration: none;
-font-size: 18px;
-font-weight: 700;
-padding: 16px 20px;
-border-radius: 50px;
-box-shadow: 0 8px 25px rgba(0, 136, 204, 0.6), 0 0 15px rgba(255, 215, 0, 0.3);
-transition: all 0.3s ease;
-text-transform: uppercase;
-letter-spacing: 0.5px;
-}
+        /* High-Converting Telegram Button */
+        .btn-telegram {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            background: linear-gradient(135deg, #0088cc, #005f9e);
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 700;
+            padding: 16px 20px;
+            border-radius: 50px;
+            box-shadow: 0 8px 25px rgba(0, 136, 204, 0.6), 0 0 15px rgba(255, 215, 0, 0.3);
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
 
-.btn-telegram:hover {
-transform: translateY(-3px);
-box-shadow: 0 12px 30px rgba(0, 136, 204, 0.9), 0 0 20px rgba(255, 215, 0, 0.5);
-}
+        .btn-telegram:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 30px rgba(0, 136, 204, 0.9), 0 0 20px rgba(255, 215, 0, 0.5);
+        }
 
-.disclaimer {
-font-size: 11px;
-color: rgba(255, 255, 255, 0.5);
-margin-top: 20px;
-line-height: 1.4;
-}
+        .disclaimer {
+            font-size: 11px;
+            color: rgba(255, 255, 255, 0.5);
+            margin-top: 20px;
+            line-height: 1.4;
+        }
 
-@keyframes pulse {
-0% { transform: scale(1); }
-50% { transform: scale(1.04); }
-100% { transform: scale(1); }
-}
-</style>
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.04); }
+            100% { transform: scale(1); }
+        }
+    </style>
 </head>
 <body>
 
-<div class="container">
-<div class="badge">🔥 99% Accuracy Guaranteed</div>
+    <div class="container">
+        <div class="badge">🔥 99% Accuracy Guaranteed</div>
+        
+        <div class="title-toss">TOSS</div>
+        <div class="title-king">KING RANBEER</div>
 
-<div class="title-toss">TOSS</div>
-<div class="title-king">KING RANBEER</div>
+        <div class="features">
+            <div class="feature-item">
+                <i class="fa-solid fa-circle-check"></i> 100% Fixed Toss & Match Reports
+            </div>
+            <div class="feature-item">
+                <i class="fa-solid fa-circle-check"></i> Session & Jackpot Calls Available
+            </div>
+            <div class="feature-item">
+                <i class="fa-solid fa-circle-check"></i> Free Telegram Channel Access
+            </div>
+            <div class="feature-item">
+                <i class="fa-solid fa-circle-check"></i> Back-to-Back Match Passing Record
+            </div>
+        </div>
 
-<div class="features">
-<div class="feature-item">
-<i class="fa-solid fa-circle-check"></i> 100% Fixed Toss & Match Reports
-</div>
-<div class="feature-item">
-<i class="fa-solid fa-circle-check"></i> Session & Jackpot Calls Available
-</div>
-<div class="feature-item">
-<i class="fa-solid fa-circle-check"></i> Free Telegram Channel Access
-</div>
-<div class="feature-item">
-<i class="fa-solid fa-circle-check"></i> Back-to-Back Match Passing Record
-</div>
-</div>
+        <a href="https://t.me/+22pUZVJDIAljNGQ1" class="btn-telegram" target="_blank" onclick="trackClick()">
+            <i class="fa-brands fa-telegram fa-xl"></i> JOIN TELEGRAM CHANNEL
+        </a>
 
-<a href="https://t.me/+22pUZVJDIAljNGQ1" class="btn-telegram" target="_blank" onclick="trackClick()">
-<i class="fa-brands fa-telegram fa-xl"></i> JOIN TELEGRAM CHANNEL
-</a>
+        <p class="disclaimer">
+            Disclaimer: This landing page is for news, updates, and prediction information purposes only. We do not promote illegal gambling or betting activities.
+        </p>
+    </div>
 
-<p class="disclaimer">
-Disclaimer: This landing page is for news, updates, and prediction information purposes only. We do not promote illegal gambling or betting activities.
-</p>
-</div>
-
-<script>
-function trackClick() {
-if (typeof fbq !== 'undefined') {
-fbq('track', 'Lead');
-}
-}
-</script>
+    <!-- Script to track button click (Lead Event) -->
+    <script>
+    function trackClick() {
+        if (typeof fbq !== 'undefined') {
+            fbq('track', 'Lead');
+        }
+    }
+    </script>
 
 </body>
 </html>
